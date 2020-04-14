@@ -9,6 +9,11 @@ Deploys 2 PA VM into an existing Resource Group in a 'Load Balancer Sandwich'.
 
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fcnetpalotraining.blob.core.windows.net%2Farm-public%2Fgpa-deploy.json)
 
+# Basic vNet & VM
+Deploys a new virtual network and linux VM, building as many as needed (vNetCount)
+
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fcnetpalotraining.blob.core.windows.net%2Farm-public%2Fvmvnet.json)
+
 ---
 
 To Deploy via PowerShell:
