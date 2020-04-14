@@ -12,9 +12,9 @@ Deploys 2 PA VM into an existing Resource Group in a 'Load Balancer Sandwich'.
 
 
 # Testing
-Testing
+Cmon'Man
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fcnetpalotraining.blob.core.windows.net%2Farm-public%2Fgpa-deploy.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fcnetpalotraining.blob.core.windows.net%2Farm-public%2Fcmonman.json)
 
 
 To Deploy via PowerShell:
