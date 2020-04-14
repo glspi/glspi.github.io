@@ -8,7 +8,8 @@ Deploys 2 PA VM into an existing Resource Group in a 'Load Balancer Sandwich'.
 
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fcnetpalotraining.blob.core.windows.net%2Farm-public%2Fgpa-deploy.json)
 
-[]
+---
+
 To Deploy via PowerShell:
 
 1. Login
