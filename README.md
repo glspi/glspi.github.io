@@ -1,20 +1,12 @@
-# CompuNet-1 PA VM, Basic
+# 1 PA VM, Basic
 Deploys 1 PA VM into an existing Resource Group.
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fcnetpalotraining.blob.core.windows.net%2Farm-public%2Fcnet-pa1.json" rel="nofollow">
-   <img src="https://aka.ms/deploytoazurebutton"/>
-</a>
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fcnetpalotraining.blob.core.windows.net%2Farm-public%2Fcnet-pa1.json)
 
-# CompuNet-2 PA VM, LB Sandwich
+# 2 PA VM's, LB Sandwich
 Deploys 2 PA VM into an existing Resource Group in a 'Load Balancer Sandwich'.
 
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fcnetpalotraining.blob.core.windows.net%2Farm-public%2Fgpa-deploy.json)
-
-
-# Testing
-Cmon'Man
-
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fcnetpalotraining.blob.core.windows.net%2Farm-public%2Fcmonman.json)
 
 
 To Deploy via PowerShell:
@@ -32,14 +24,14 @@ To Deploy via PowerShell:
     + New-AzResourceGroup -Location WestUS2 -Name PA-ResourceGroup-Name
 
 1. Deploy
-    + New-AzResourceGroupDeployment -ResourceGroupName PA-ResourceGroup-Name -TemplateFile .\cnet-pa1.json -TemplateParameterFile .\cnet-pa1.parameters.json
+    + New-AzResourceGroupDeployment -ResourceGroupName PA-ResourceGroup-Name -TemplateFile .\FILENAME.json -TemplateParameterFile .\FILENAME.parameters.json
 
 
 To Deploy via CloudShell:
-1. Upload cnet-pa1.json and cnet-pa1.parameters.json
+1. Upload FILENAME.json and FILENAME.parameters.json
 
 1. Create Resource Group
     + New-AzResourceGroup -Location WestUS2 -Name PA-ResourceGroup-Name
 1. cd ~
 1. Deploy
-    + New-AzResourceGroupDeployment -ResourceGroupName PA-ResourceGroup-Name -TemplateFile .\cnet-pa1.json -TemplateParameterFile .\cnet-pa1.parameters.json
+    + New-AzResourceGroupDeployment -ResourceGroupName PA-ResourceGroup-Name -TemplateFile .\FILENAME.json -TemplateParameterFile .\FILENAME.parameters.json
