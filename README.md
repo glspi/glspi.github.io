@@ -1,4 +1,3 @@
-<> ![CompuNet](images/cnet.png)
 
 # 1 PA VM, Basic
 Deploys 1 PA VM into an existing Resource Group.
