@@ -1,1 +1,3 @@
 layouts_dir : _layouts
+
+theme: jekyll-theme-dinky
